@@ -1,0 +1,110 @@
+CRITICAL - 2022-04-16 03:49:03 --> syntax error, unexpected end of file
+#0 C:\laragon\www\icaa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\icaa\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\laragon\www\icaa\app\Controllers\Home.php(18): view('home', Array)
+#3 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-04-16 03:59:27 --> syntax error, unexpected end of file
+#0 C:\laragon\www\icaa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\icaa\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\laragon\www\icaa\app\Controllers\Home.php(18): view('home', Array)
+#3 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+ERROR - 2022-04-16 06:26:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 06:26:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\icaa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\icaa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\icaa\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\icaa\app\Controllers\Home.php(15): App\Models\PortoModel->getEdu()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-04-16 06:27:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 06:27:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\icaa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\icaa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\icaa\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\icaa\app\Controllers\Home.php(15): App\Models\PortoModel->getEdu()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-04-16 06:28:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 06:28:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\icaa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\icaa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\icaa\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\icaa\app\Controllers\Home.php(15): App\Models\PortoModel->getEdu()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-04-16 06:28:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 06:28:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\icaa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\icaa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\icaa\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\icaa\app\Controllers\Home.php(15): App\Models\PortoModel->getEdu()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-04-16 21:17:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 21:17:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\icaa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\icaa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\icaa\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\icaa\app\Controllers\Home.php(15): App\Models\PortoModel->getEdu()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-04-16 21:17:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 21:17:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\icaa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\icaa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\icaa\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\icaa\app\Controllers\Home.php(15): App\Models\PortoModel->getEdu()
+#4 C:\laragon\www\icaa\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\icaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\icaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\icaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\icaa\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
